@@ -1,6 +1,6 @@
- * {
-    font-size: 1.2rem;
- }
+* {
+    font-family: "Roboto","Arial",sans-serif;
+}
 a {
     text-decoration: none;
     color: inherit;
@@ -20,7 +20,7 @@ ul {
     margin-bottom: 16px;
 }
 body > main {
-    margin-left: 16rem;
+    margin-left: 200px
 
 }
 ul {
@@ -28,5 +28,5 @@ ul {
     list-style-type: none;
 }
 li {
-    padding: 0.5rem 0.25rem;
+    padding: 10px 5px;
 }
