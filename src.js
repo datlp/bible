@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', function () {
     .forEach((node) => {
       node.outerHTML = `<a href="../${
         location.pathname.match('vie1925') ? 'kjv' : 'vie1925'
-      }/${node.dataset.usfm.replace(/[.].*/, '.html')}#${
+      }/${node.dataset.usfm.toLowerCase().replace(/[.].*/, '.html')}#${
         node.dataset.usfm
       }">${node.outerHTML}</a>`;
     });
