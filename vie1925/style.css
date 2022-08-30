@@ -1,0 +1,32 @@
+ * {
+    font-size: 1.2rem;
+ }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li:hover {
+    background-color: aliceblue;
+}
+.active {
+    color:blue;
+    font-weight: bold;
+}
+ul {
+    position: fixed;
+    height: calc(100% - 32px);
+    overflow: auto;
+    top: 0;
+    margin-bottom: 16px;
+}
+body > main {
+    margin-left: 16rem;
+
+}
+ul {
+    padding: initial;
+    list-style-type: none;
+}
+li {
+    padding: 0.5rem 0.25rem;
+}
